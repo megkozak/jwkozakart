@@ -1,0 +1,35 @@
+.header {
+  background-color: #9bbdcc;
+  padding: 20px;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #4d4d4d;
+  text-align: center;
+  font-size: 46px;
+  width: 100%;
+}
+
+.topnav {
+  background-color: #dde9ee;
+  color: black;
+  text-align: center;
+  width: 100%;
+  font-size: 17px;
+  position: fixed; 
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+li {
+  float: center;
+  display: inline-block;
+
+}
+
+li a {
+  padding: 20px;
+
+}
