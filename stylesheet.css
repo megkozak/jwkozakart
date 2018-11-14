@@ -5,7 +5,7 @@ body {
 }
 
 .header {
-  background-color: #9bbdcc;
+  background-color: #b3cccc;
   padding: 20px;
   color: #ffffff;
   border-style: solid;
@@ -51,3 +51,8 @@ body {
 nav a:hover {
    background-color: #005f5f;
  }
+
+.art {
+  image-orientation: center;
+  
+}
