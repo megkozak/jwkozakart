@@ -4,7 +4,7 @@ body {
   background: #ccc;
 }
 
-header {
+.header {
   background-color: #b3cccc;
   padding: 20px;
   color: #ffffff;
@@ -15,7 +15,7 @@ header {
   width: 100%;
 }
 
-nav ul {
+.nav ul {
   background-color: #dde9ee;
   /* color: black; */
   text-align: center;
@@ -27,13 +27,13 @@ nav ul {
   margin: 10px;
 }
 
-nav li {
+.nav li {
   float: center;
   display: inline-block;
 
 }
 
-nav li a {
+.nav li a {
   padding: 20px;
   text-decoration: none;
 
