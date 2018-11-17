@@ -3,29 +3,30 @@ body {
   padding: 0;
   background: #ccc;
   width: 100%;
+  font-family; sans-serif;
 }
 
 header {
   background-color: #b3cccc;
   padding: 20px;
-  color: #ffffff;
+  /* color: #red; */
   border-style: solid;
   border-color: #4d4d4d;
   text-align: center;
   font-size: 46px;
   width: 100%;
+  display: inline-block;
 }
 
 nav ul {
   background-color: #dde9ee;
-  color: black;
+  /* color: black; */
   text-align: center;
   width: 100%;
   font-size: 17px;
-  position: absolute;
   list-style-type: none;
-  padding: 10px;
-  margin: 10px;
+  padding: 5px;
+  margin: 0px;
 }
 
 nav li {
@@ -40,9 +41,10 @@ nav li a {
 
 }
 
-section img {
+section figure img {
 max-width: 100%;
 height: auto;
+
 
 }
 
