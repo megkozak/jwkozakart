@@ -5,7 +5,7 @@ body {
   width: 100%;
 }
 
-.header {
+header {
   background-color: #b3cccc;
   padding: 20px;
   color: #ffffff;
@@ -16,44 +16,44 @@ body {
   width: 100%;
 }
 
-.nav ul {
+nav ul {
   background-color: #dde9ee;
-  /* color: black; */
+  color: black;
   text-align: center;
   width: 100%;
   font-size: 17px;
-  position: fixed;
+  position: absolute;
   list-style-type: none;
   padding: 10px;
   margin: 10px;
 }
 
-.nav li {
-  float: center;
+nav li {
+  /* float: center; */
   display: inline-block;
 
 }
 
-.nav li a {
+nav li a {
   padding: 20px;
   text-decoration: none;
 
 }
 
-nav a:hover {
-   background-color: #005f5f;
- }
+section img {
+max-width: 100%;
+height: auto;
 
-.text p {
+}
+
+/* nav a:hover {
+   background-color: #005f5f;
+ } */
+
+.text {
   display: block;
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
-
-}
-.img {
-max-width: 90%;
-height: auto;
-
 }
