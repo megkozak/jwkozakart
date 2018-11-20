@@ -1,10 +1,22 @@
-body {
+.site {
+  display: grid;
+  grid-template-columns: 1fr, 2fr, 1fr;
+  grid-template-rows: minmax(100px, auto);
+  grid-gap: 2em;
+  grid-template-areas:
+    "header header header"
+    "content content content"
+    "content content content"
+    "footer footer footer";
+}
+
+/* body {
   margin: 0;
   padding: 0;
   background: #ccc;
   width: 100%;
   font-family; sans-serif;
-}
+} */
 
 header {
   background-color: #b3cccc;
