@@ -1,4 +1,4 @@
-.site {
+/* .site {
   display: grid;
   grid-template-columns: 1fr, 2fr, 1fr;
   grid-template-rows: minmax(100px, auto);
@@ -8,7 +8,7 @@
     "content content content"
     "content content content"
     "footer footer footer";
-}
+} */
 
 body {
   margin: 0;
